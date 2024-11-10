@@ -1,11 +1,12 @@
 import logo from './logo.svg';
 import './App.css';
-import JeuDe from './JeuDEfunction';
+import JeuDEfunction from './JeuDEfunction';
 
 function App() {
   return (
     <div className="App">
-     <JeuDe />
+     {/* <JeuDe /> */}
+     <JeuDEfunction />
     </div>
   );
 }
