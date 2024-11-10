@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
      {/* <JeuDe /> */}
-     <JeuDEfunction />
+     <JeuDEfunction cache={2} />
     </div>
   );
 }
