@@ -15,7 +15,7 @@ function JeuDe({ cache }) {
   };
 
   const getImage = () => {
-    return face ? `/images/face${face}.png` : "/images/Dé.PNG";
+    return face ? `./images/face${face}.png` : "./images/Dé.PNG";
   };
 
   const initialiser = () => {
