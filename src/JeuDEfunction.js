@@ -15,7 +15,7 @@ function JeuDe({ cache }) {
   };
 
   const getImage = () => {
-    return face ? `/public/images/face${face}.png` : "/public/images/Dé.PNG";
+    return face ? `/images/face${face}.png` : "/images/Dé.PNG";
   };
 
   const initialiser = () => {
@@ -27,7 +27,7 @@ function JeuDe({ cache }) {
   return (
     <div>
       <h1>Jeu de Dé...</h1>
-      <img src={getImage()} style={{ width: "60px", height: "60px" }} alt="Face du dé" />
+      <img src={getImage()} style={{ width: "100px", height: "100px" }} alt="Face du dé" />
       <h2>Face: {face || "..."}</h2>
       <h2>Nombre d'essais: {compteur}</h2>
       <button onClick={jouer}>Jouer</button>
