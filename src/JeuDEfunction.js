@@ -26,9 +26,9 @@ function JeuDe({ cache }) {
 
   return (
     <div>
-      <h1>Jeu de Dé...</h1>
-      <img src={getImage()} style={{ width: "100px", height: "100px" }} alt="Face du dé" />
-      <h2>Face: {face || "..."}</h2>
+      <h1>Jeu de Dé</h1>
+      <img src={getImage()} style={{ width: "250px", height: "250px" }} alt="Face du dé" />
+      <h2>Face: {face }</h2>
       <h2>Nombre d'essais: {compteur}</h2>
       <button onClick={jouer}>Jouer</button>
       {fin && <p>Bravo! Vous avez trouvé la face cachée {cache}!</p>}
