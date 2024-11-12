@@ -13,10 +13,10 @@ function JeuDe({ cache }) {
       setFin(true);
     }
   };
-
-  const getImage = () => {
+  function getImage(){
     return face ? `/images/face${face}.PNG` : "/images/Dé.PNG";
-  };
+  }
+ 
 
   const initialiser = () => {
     setFace(null);
